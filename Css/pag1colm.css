@@ -52,22 +52,37 @@ footer{
     border-top: solid black thick;
 }
 
-nav {
+nav{
     
     clear: both;
     float: left;
     width: 15%;
     padding-left: 2%;
-    background-color: white;
-    border: solid black thick;
     margin-right: 3%;
-
-    
     position: sticky;
     top: 4%;
     
     
 }
+
+nav ul {
+    background-color: white;
+    border: solid black thick;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+nav ol {
+    
+
+    background-color: white;
+    border: solid black thick;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
 
 
 
@@ -88,4 +103,8 @@ img {
 
 .kirby {
     width: 10%;
+}
+
+.max{
+    width: 50%;
 }
