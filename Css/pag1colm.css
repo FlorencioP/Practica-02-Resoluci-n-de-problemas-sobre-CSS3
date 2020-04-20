@@ -99,7 +99,7 @@ header nav ul li{
     padding:0 10px;
     background-color: white;
     width: 9%;
-      
+    margin-top: 1%;
     overflow: hidden;
     text-overflow: ellipsis;
 
