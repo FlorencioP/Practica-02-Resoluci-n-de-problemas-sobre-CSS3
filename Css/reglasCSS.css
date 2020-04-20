@@ -19,3 +19,157 @@ iframe{
 video{
     width: 100%;
 }
+
+body{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /*Se queda en el centro no se mueve*/
+    background-image: url(../imagenes/fondoweb.gif);
+}
+
+
+header .icon{
+
+    font-weight: bold;
+}
+
+
+nav ul li{
+    border: solid black thin;
+    background-color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#intro div{
+    background-color: white;
+    border: solid black thick;
+    border-radius: 20px;
+    font-size: 150%;
+}
+
+#kirbys {
+    background-color: white;
+    border-bottom:  solid black thick;
+    border-top: solid black thick;
+    font-size: 200%;
+
+}
+
+#kirbys input{
+    font-size: 150%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#medio #imeg img{
+
+    border: solid black thick;
+    border-radius: 20px;
+   
+}
+
+#medio #text{
+    background-color: white;
+    border: solid black thick;
+    border-radius: 20px;
+    font-size: 105%;
+    text-align: center;
+}
+
+#equipo {
+
+    background-color: slategray;
+    border-bottom:  solid black thick;
+    border-top: solid black thick;
+
+    text-align: center;
+    font-size: 200%;
+}
+
+#equipo .perf p {
+    border: solid black;
+    background-color: white;
+}
+
+#equipo .perf{
+
+    font-weight: bold;
+
+    font-size: 90%;
+}
+
+#final div{
+    background-color: white;
+    border: solid black thick;
+}
+
+#final #c1{
+    background-color: white;
+    border: solid black thick;
+}
+
+#final #c2{
+    background-color: white;
+    border: solid black thick;
+}
+
+
+#bodymail{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; /*Se queda en el centro no se mueve*/
+    background-image: url(../imagenes/fondomail.gif);
+}
+
+#footersecs{
+    background-color: white;
+    border-bottom:  solid black thick;
+    border-top: solid black thick;
+}
+
+#msection {    
+    text-align: center;
+    font-size: 180%;
+    color: white;
+}
+
+#menualt ul {
+
+    background-color: white;
+    border: solid black thick;
+}
+#menualt ol {
+    background-color: white;
+    border: solid black thick;
+}
+
+header nav ul li{
+
+    border: solid black thin;
+    background-color: white;
+    text-overflow: ellipsis;
+
+}
+
+#col1{
+    background-color: white;
+    border: solid black thick;
+}
+
+#colum1{
+    background-color: white;
+    border: solid black thick;
+}
+
+#colum2{
+    background-color: white;
+    border: solid black thick;
+}
+
+#mini{
+    background-color: white;
+    border: solid black thick;
+}

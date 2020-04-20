@@ -1,13 +1,5 @@
 
 
-body{
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; /*Se queda en el centro no se mueve*/
-    background-image: url(../imagenes/fondoweb.gif);
-}
-
 header {
     width: 100%;
 }
@@ -27,23 +19,7 @@ header #busca{
     
 }
 
-header .icon img {
 
-    margin-top: 50%;
-    width: 100%;
-
-}
-
-
-
-header .icon{
-
-    float: left;
-    width: 3%;
-    margin-right: -1%;
-
-    font-weight: bold;
-}
 
 nav ul {
     clear: both;
@@ -53,17 +29,12 @@ nav ul {
 
 nav ul li{
 
-    border: solid black thin;
+    
     display:block;
     float: left;
     padding:0 10px;
-    background-color: white;
     width: 9%;
     margin-top: 1%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-
-
 }
 
 
@@ -77,14 +48,10 @@ nav ul li{
 }
 
 #intro div {
-    background-color: white;
+    
     padding: 1%;
     padding-left: 3%;
-    border: solid black thick;
-    border-radius: 20px;
 
-
-    font-size: 150%;
 }
 
 
@@ -99,21 +66,13 @@ section + img {
 #kirbys {
     padding-bottom: 1%;
     clear: both;
-    background-color: white;
-    border-bottom:  solid black thick;
-    border-top: solid black thick;
-
     text-align: center;
-    font-size: 200%;
+    
 }
 
 #kirbys input{
     width:22%;
     padding: 0.1%;
-    font-size: 150%;
-
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 #kirbys img{
@@ -139,23 +98,9 @@ section + img {
 
 }
 
-#medio #imeg img{
-
-    border: solid black thick;
-    border-radius: 20px;
-   
-}
-
 #medio #text{
     width: 65%;
     float:left;
-    background-color: white;
-    border: solid black thick;
-    border-radius: 20px;
-
-    font-size: 105%;
-    text-align: center;
-
 }
 
 #equipo {
@@ -163,13 +108,6 @@ section + img {
     float: left;
     width: 100%;
     padding-bottom: 1%;
-    
-    background-color: slategray;
-    border-bottom:  solid black thick;
-    border-top: solid black thick;
-
-    text-align: center;
-    font-size: 200%;
 }
 
 
@@ -179,8 +117,6 @@ section + img {
    
 }
 #equipo .perf p {
-    border: solid black;
-    background-color: white;
     margin-left: -55px;
 }
 
@@ -190,9 +126,21 @@ section + img {
     padding-left: 8%;
     width: 10%;
     float: left;
-    font-weight: bold;
+    
+}
 
-    font-size: 90%;
+header .icon img {
+
+    margin-top: 50%;
+    width: 100%;
+
+}
+header .icon{
+
+    float: left;
+    width: 3%;
+    margin-right: -1%;
+
 }
 
 #final{
@@ -204,8 +152,7 @@ section + img {
 
 #final div{
     clear: both;
-    background-color: white;
-    border: solid black thick;
+    
     margin: 2%;
     padding-left: 2%;
 }
@@ -214,8 +161,7 @@ section + img {
 #final #c1 {
     float: left;
     width: 40%;
-    background-color: white;
-    border: solid black thick;
+
     margin: 2%;
     padding-left: 2%;
 
@@ -224,8 +170,7 @@ section + img {
 #final #c2 {
     float: left;
     width: 40%;
-    background-color: white;
-    border: solid black thick;
+
     padding-left: 2%;
     margin: 2%;
 

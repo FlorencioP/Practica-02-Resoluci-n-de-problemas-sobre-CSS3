@@ -1,25 +1,9 @@
-body{
-	background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed; /*Se queda en el centro no se mueve*/
-    background-image: url(../imagenes/fondomail.gif);
-}
-
-
-
 footer{
-    clear: both;
-    background-color: white;
-    border-bottom:  solid black thick;
-    border-top: solid black thick;
-
-    
+    clear: both; 
 }
 
 
 #formulario{
-
     margin-right: 1%;
 }
 
@@ -33,21 +17,12 @@ header img{
     margin-left: 3%;
 }
 
-section{
+#msection{
     clear: both;
     width: 50%;
     margin-left: 30%;
-    
-    
-    text-align: center;
-    font-size: 180%;
-    color: white;
-
     margin-bottom: 5% ;
 }
-
-
-
 
 #nombre{
     margin: 1%;
@@ -64,11 +39,9 @@ section{
 
 .btn {
     clear: both;
-    
     margin-left: 61.5%;
     width: 20%;
-    padding: 1%;
-
+    padding: 0.5%;
 }
 
 
