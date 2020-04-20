@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <title>El rincón F</title>
 
+    <link rel="stylesheet" type="text/css" href="../Css/pag2colm.css"/>
+    <link rel="stylesheet" type="text/css" href="../Css/reglasCSS.css"/>
+
 
 </head>
 
@@ -14,83 +17,112 @@
 
     <header>
 
-        <a href="index.html"><img src="../imagenes/logof.png" width="450" height="300" alt="Se escribe con F" /></a>
-    
-        <nav>
-            <ul>
-                
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="imagenes.html">Imagenes</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="videointeresante.html">Video Interesante</a></li>
-                <li><a href="musica.html">Musica</a></li>
-                <li><a href="sobretiktok.html">Info. Tik Tok</a></li>
-                <li><a href="perritomax.html">El Maxwell</a></li>
-                <li><a href="cosasvarias2.html">Vario</a></li>
-                <li><a href="cosasvarias3.html">Vario 2</a></li>
-            
-            </ul>
-        </nav>
-
+        <a href="index.html"><img id="logo" src="../imagenes/logof.png"  alt="Se escribe con F" /></a>
+        <p id="busca"> <input type="text" placeholder="Disque Busqueda" size="150">   </p> 
+        
+        <blockquote class="icon">
+            <img  src="../imagenes/user.png" alt="Perfil">
+            <p>Perfil</p>
+        </blockquote>
+        <blockquote class="icon">
+            <img  src="../imagenes/mensaje.png" alt="Mensaje">
+            <p>Mensaje</p>
+        </blockquote>
+        <blockquote class="icon">
+            <img src="../imagenes/about.png" alt="About">
+            <p>Acerca</p>
+        </blockquote>
     
     </header>
 
-    <h1>Imagenes</h1>
-    <section>
-        <h4>Galeria</h4>
-        <p>Aquí compartiré una de mis galerías favoritas a través del internet, y también expondré a aquellas imagenes que he 
-        utilizado en trabajos anteriores.
-        Además de eso también publicare información acerca del autor de estas imagenes.
-        <br>
-        Para empezar, ya ni siquiera me acuerdo de cómo fue que encontré el arte de este autor su nombre (al menos como lo 
-        entiendo y conozco) es <u><a href="https://twitter.com/1041uuu" target="blank">1041uuu</a></u> , me parece que estaba 
-        buscando un buen fondo de pantalla y pues.... me lo encontré.</p> 
-    </section>
-    <br>
-    <section>
-        <h3>Primero hablare acerca de su arte y luego de su autor </h3>
-        <article>
-            <h2>
-                El Arte
-            </h2>
-            <p>El Arte de 1041uuu es principalmente pixelado (De alguna forma se me hace más cómodo llamarlo Pixel Art pero bueno, 
-            esta es una página en espa&ntilde;ol)
-            y a partir de ahí normalmente se enfoca en temas como la naturaleza o situaciones cotidianas de.... Supongo que de 
-            Japón (Yo no hablo Nintendo).<br>
-            E aquí unas cuantas imagenes realizadas por este artista que me han gustado:<br></p>
 
-            <img src="../imagenes/arte1.gif" alt="Arte 1">
-            <img src="../imagenes/arte2.gif" alt="Arte 2">
-            <img src="../imagenes/arte3.gif" alt="Arte 3">
-            <img src="../imagenes/arte4.gif" alt="Arte 4">
-            <br>
-            <p>Esta arte también a he utilizado en algunos trabajos de la U, es más, la imagen de fondo utilizada por esta página 
-            es también de este artista</p>
-            <aside>
-                <h3>3er Ciclo: Programación aplicada </h3>
-                <p>En tercer ciclo realizamos un programa para gestionar una biblioteca, donde use esta imagen <br>
-                <img src="../imagenes/fondo.gif" alt="Imagen del Gestionador de bibliotecas"><br>
-                Lamentablemente no tengo imagenes del programa corriendo, ya revisé y en esos tiempos solo le enviado el Diagrama 
-                de clases y el programa en sí.</p>
+    <nav>
+        <ul>
+            
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="videointeresante.html">Video Interesante</a></li>
+            <li><a href="musica.html">Musica</a></li>
+            <li><a href="sobretiktok.html">Info. Tik Tok</a></li>
+            <li><a href="perritomax.html">El Maxwell</a></li>
+            <li><a href="cosasvarias2.html">Vario</a></li>
+            <li><a href="cosasvarias3.html">Vario 2</a></li>
+        
+        </ul>
+    </nav>
+
+
+
+
+
+    <div id="cuadro">
+
+
+        <section id="colum1">
+            <h2>El Arte y donde lo e usado</h2>
+            <article>
+                <h3>
+                    El Arte
+                </h3>
+                <p>El Arte de 1041uuu es principalmente pixelado (De alguna forma se me hace más cómodo llamarlo Pixel Art pero bueno, 
+                esta es una página en espa&ntilde;ol)
+                y a partir de ahí normalmente se enfoca en temas como la naturaleza o situaciones cotidianas de.... Supongo que de 
+                Japón (Yo no hablo Nintendo).<br>
+                E aquí unas cuantas imagenes realizadas por este artista que me han gustado:<br></p>
+
+                <img src="../imagenes/arte1.gif" alt="Arte 1">
+                <img src="../imagenes/arte2.gif" alt="Arte 2">
+                <img src="../imagenes/arte3.gif" alt="Arte 3">
+                <img src="../imagenes/arte4.gif" alt="Arte 4">
                 <br>
-            </aside>
-            <aside>
-                <h3>5to Ciclo: Adm.Sistemas Operativos</h3>
-                <p>En Quinto Ciclo use este fondo para probar el Escritorio remoto en el Directorio Activo.<br>
-                <img src="../imagenes/fondoMV.png" alt="Imagen de prueba para Maquinas Virtuales"><br>
-                Fue el éxito cuando funciono la primera vez.<br></p>
-            </aside>
+                <p>Esta arte también a he utilizado en algunos trabajos de la U, es más, la imagen de fondo utilizada por esta página 
+                es también de este artista</p>
+                <aside>
+                    <h3>3er Ciclo: Programación aplicada </h3>
+                    <p>En tercer ciclo realizamos un programa para gestionar una biblioteca, donde use esta imagen <br>
+                    <img src="../imagenes/fondo.gif" alt="Imagen del Gestionador de bibliotecas"><br>
+                    Lamentablemente no tengo imagenes del programa corriendo, ya revisé y en esos tiempos solo le enviado el Diagrama 
+                    de clases y el programa en sí.</p>
+                    <br>
+                </aside>
+                <aside>
+                    <h3>5to Ciclo: Adm.Sistemas Operativos</h3>
+                    <p>En Quinto Ciclo use este fondo para probar el Escritorio remoto en el Directorio Activo.<br>
+                    <img src="../imagenes/fondoMV.png" alt="Imagen de prueba para Maquinas Virtuales"><br>
+                    Fue el éxito cuando funciono la primera vez.<br></p>
+                </aside>
 
-        </article>
+            </article>
 
-        <article>
-            <h2>1041uuu</h2>
-            <p>Un ilustrador japonés llamado Toyoi Yuuta quien a través de su Tumblr 1041uuu nos muestra una buena colección 
-            ilustraciones personales hechas pixel por pixel. Esta es su firma: <br></p>
-            <img src="../imagenes/artista.png" alt="Firma 1041uuu"><br>
-        </article>
+           
 
-    </section>
+        </section>
+
+
+
+        <section id="colum2">
+            <h2>Informacion acerca de la galería y su autor</h2>
+            <p>Aquí compartiré una de mis galerías favoritas a través del internet, y también expondré a aquellas imagenes que he 
+            utilizado en trabajos anteriores.
+            Además de eso también publicare información acerca del autor de estas imagenes.
+            <br>
+            Para empezar, ya ni siquiera me acuerdo de cómo fue que encontré el arte de este autor su nombre (al menos como lo 
+            entiendo y conozco) es <u><a href="https://twitter.com/1041uuu" target="blank">1041uuu</a></u> , me parece que estaba 
+            buscando un buen fondo de pantalla y pues.... me lo encontré.</p> 
+
+            <article>
+                <h2>1041uuu</h2>
+                <p>Un ilustrador japonés llamado Toyoi Yuuta quien a través de su Tumblr 1041uuu nos muestra una buena colección 
+                ilustraciones personales hechas pixel por pixel. Esta es su firma: <br></p>
+                <img src="../imagenes/artista.png" alt="Firma 1041uuu"><br>
+            </article>
+
+
+        </section>
+        <br>
+
+    </div>
 
     <footer> Carlos Florencio Peralta Bautista &#8225; Universidad Politécnica Salesiana &#8225; 
         <a href="mailto:cperaltab1@est.ups.edu.ec">cperaltab1@est.ups.edu.ec</a>  &#8225;  <a href=”tel:+5930998027181”>
