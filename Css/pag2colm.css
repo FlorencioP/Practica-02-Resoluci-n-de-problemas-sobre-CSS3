@@ -108,3 +108,11 @@ img {
     border: solid black thick;
 
 }
+
+#mini{
+
+    padding: 1%;
+    margin-bottom: 3%;
+    background-color: white;
+    border: solid black thick;
+}
