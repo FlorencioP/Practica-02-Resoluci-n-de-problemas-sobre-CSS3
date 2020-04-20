@@ -173,3 +173,14 @@ header nav ul li{
     background-color: white;
     border: solid black thick;
 }
+
+@font-face {
+    font-family: "PIX";
+    src: url("../formatoL/pixx.ttf");
+
+}
+
+* {
+    font-family: "PIX";
+    font-size: 100%;
+}
