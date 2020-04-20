@@ -45,6 +45,29 @@ header .icon{
     font-weight: bold;
 }
 
+
+
+header nav ul {
+    clear: both;
+    margin:20px;
+    
+}
+
+header nav ul li{
+
+    border: solid black thin;
+    display:block;
+    float: left;
+    padding:0 10px;
+    background-color: white;
+    width: 9%;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
 footer{
     clear: both;
     background-color: white;
@@ -52,7 +75,7 @@ footer{
     border-top: solid black thick;
 }
 
-nav{
+#menualt{
     
     clear: both;
     float: left;
@@ -65,7 +88,7 @@ nav{
     
 }
 
-ul {
+#menualt ul {
     background-color: white;
     border: solid black thick;
     padding-top: 5%;

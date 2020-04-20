@@ -52,7 +52,7 @@ footer{
     border-top: solid black thick;
 }
 
-nav{
+#menualt {
     
     clear: both;
     float: left;
@@ -65,14 +65,16 @@ nav{
     
 }
 
-nav ul {
+
+
+#menualt ul {
     background-color: white;
     border: solid black thick;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-nav ol {
+#menualt ol {
     
 
     background-color: white;
@@ -82,6 +84,26 @@ nav ol {
 }
 
 
+header nav ul {
+    clear: both;
+    margin:20px;
+    
+}
+
+header nav ul li{
+
+    border: solid black thin;
+    display:block;
+    float: left;
+    padding:0 10px;
+    background-color: white;
+    width: 9%;
+      
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
 
 
 
@@ -94,6 +116,8 @@ nav ol {
     width: 70%;
     padding: 1%;
     margin-bottom: 3%;
+    margin-top: 1%;
+
 
 }
 
