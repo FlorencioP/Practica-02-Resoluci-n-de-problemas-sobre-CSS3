@@ -13,4 +13,9 @@ table {
 
 iframe{
     border: 0px;
+    width: 100%;
+}
+
+video{
+    width: 100%;
 }
