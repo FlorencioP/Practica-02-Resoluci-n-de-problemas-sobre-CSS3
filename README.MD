@@ -1,1 +1,1 @@
-![Aquí la descripción de la imagen por si no carga](../imagenes/mensaje.png?raw=true "Title")
+![Aquí la descripción de la imagen por si no carga](/imagenes/mensaje.png?raw=true "Title")
